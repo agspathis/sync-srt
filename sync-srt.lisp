@@ -1,4 +1,4 @@
-;; #!/usr/bin/sbcl --script
+#!/usr/bin/sbcl --script
 
 (defun print-documentation ()
   (write-line "Docs are for the weak." *standard-output*))
@@ -176,3 +176,5 @@
 				    (sync-line line syncer)
 				    line)
 				out))))))))))
+
+(main)
